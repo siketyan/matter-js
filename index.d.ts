@@ -568,6 +568,8 @@ declare namespace Matter {
      * @default 1
      */
     yScale: number;
+
+    single: boolean;
   }
 
   /**
