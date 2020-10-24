@@ -51,6 +51,7 @@
   "files": [
     "src",
     "build",
+    "index.d.ts",
     "CHANGELOG.md"
   ]
 }
