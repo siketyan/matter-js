@@ -47,7 +47,7 @@
     "test-save": "SAVE=true jest",
     "test-watch": "jest --watch",
     "pretest": "npm run build",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {},
   "files": [
