@@ -637,7 +637,8 @@ var Mouse = require('../core/Mouse');
                 continue;
 
             // handle compound parts
-            for (k = body.parts.length > 1 ? 1 : 0; k < body.parts.length; k++) {
+            var parts = body.render.sprite.single ? 1 : body.parts.length;
+            for (k = !body.render.sprite.single && body.parts.length > 1 ? 1 : 0; k < parts; k++) {
                 part = body.parts[k];
 
                 if (!part.render.visible)
