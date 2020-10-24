@@ -6,6 +6,7 @@
   "author": "Naoki Ikeguchi <root@siketyan.dev>",
   "description": "Just a customized version of matter.js",
   "main": "build/matter.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/siketyan/matter-js.git"
