@@ -45,7 +45,8 @@
     "doc": "gulp doc",
     "test": "jest",
     "test-save": "SAVE=true jest",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
+    "prepublish": "npm run build"
   },
   "dependencies": {},
   "files": [
